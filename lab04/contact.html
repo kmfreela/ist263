@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+    <h1>Contact</h1>
+    <p>
+        Karina Freeland <br>
+        125 Euclid Ave <br>
+        Syracuse, NY 13210 <br>
+        <br>
+        <a>My Linkedin Page</a>
+        <a href="https://www.linkedin.com/in/karina-freeland/">My Linkedin Page</a> <br>
+
+        <a>My Email Address</a>
+        <a href="mailto:kmfreela@syr.edu">Karina Freeland Email</a>
+        
+        <img src="../images/linkedlogo.png" alt="linkedin logo"><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3092.534729649581!2d-76.12571715347578!3d43.0341127704618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89d9f3682f81fc95%3A0xdde8fcc1640a4876!2sSyracuse%2C%20NY%2013210!3m2!1d43.0347064!2d-76.1261969!5e0!3m2!1sen!2sus!4v1644505732445!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </p>
+    <h2>Fill out this form to get in contact with Karina!</h2>
+    <form action="https://formspree.io/f/mlezbnkk" method="post">
+        
+        <label for="fullname">Name of Contact</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+        <label for="complaint">Reason to Speak </label><br>
+        <textarea name="complaint" id="complaint"></textarea> <br>
+
+
+
+        <label for="important1">important </label>
+        <input type="radio" name="important" id="important1"><br>
+        <label for="important2">not important</label>
+        <input type="radio" name="important" id="important2"><br>
+
+        <p>What contact methods work?</p>
+        <label for="method1">Phone</label>
+        <input type="checkbox" id="method1" name="method1">
+        <label for="method2">Email</label>
+        <input type="checkbox" id="method2" name="method2"><br>
+
+        <label for="time">What time do you want to speak?</label>
+        <select id="time" name="time" >
+            <option value="morning">11am</option>
+            <option value="afternoon">5pm</option>
+            <option value="evening">8pm</option>
+
+        </select><br>
+
+
+        <input type="submit" Value="send request" >
+
+    </form>
+    </body>
+</html>
