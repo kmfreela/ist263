@@ -1,0 +1,12 @@
+body{
+    background-color: aliceblue;
+}
+
+p {color: gray;}
+
+.boldred {
+    color: red;
+    font-weight: bold;
+}
+
+/* no html allowed here in this CSS document*/ 
