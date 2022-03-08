@@ -1,0 +1,7 @@
+p a {color: green;}
+/*making the ranker link green,,, this is a decendent selector*/
+.myclass {color:blue}
+/* making the second header blue,,, this is a class selector*/
+h1 {color: red}
+/*making the first header red,,,, this is an element selector*/ 
+#9db8e3
