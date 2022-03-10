@@ -1,0 +1,17 @@
+body {background-color: #fafad4;
+    font-family: 'Times New Roman', Times, serif;}
+/*this is the site nav background*/
+
+p {background-color:#FFFFFF; color: #b3b2f5; }
+/*these are the text and body background colors*/
+
+p a {color: #958eef;}
+/*this is the link color*/
+
+h1 h2 {color: #5e10ec}
+/* these are the header colors*/ 
+
+nav {background-color: #FFFFFF; padding: 10px; margin-bottom: 30px;}
+nav a {color: #000000}
+nav a:hover {background-color: #3c1d65;}
+/*these are the site nav colors and other things*/ 
