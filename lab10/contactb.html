@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device">
+        <style>
+           .generalinfo, .contactform {margin: 10px;}
+           .generalinfo {background-color: white; border-radius: 25px; display: flex; padding: 20px; margin: 1em; flex-wrap: wrap; flex: 1;}
+            .contactform {background-color: white; border-radius: 25px; display:flex; padding: 20px; margin: 1em; flex-wrap: wrap; flex: 2}
+            
+            
+        
+        </style>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="navflex">
+            <nav>
+                <div>
+                    <a href="index.html">Home</a>
+                <span>|</span>
+                </div>
+                <div>
+                    <a href="skills.html">Skills</a>
+                <span>|</span>
+                </div>
+                <!--this is when there is atext but you dont want it to be a block element-->
+                <div>
+                    <a href="contactb.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+    <h1>Contact</h1>
+
+    <div class="generalinfo">
+    
+        <div class="physicaladdy">
+        <h2>Physical Address</h2>
+        Karina Freeland <br>
+        125 Euclid Ave <br>
+        Syracuse, NY 13210 <br>
+        </div>
+
+        <div class="digitaladdy">
+        <h2>Digital Addresses</h2>
+        <a href="https://www.linkedin.com/in/karina-freeland/">My Linkedin Page</a> <br>
+
+        <a href="mailto:kmfreela@syr.edu">Karina Freeland Email</a>
+        </div>
+        <div>
+        <img src="../images/linkedlogoc.png" alt="linkedin logo" height="40" width="50">
+        </div>
+        <br>
+     
+        </div>
+    
+
+    <div class="contactform">
+    <div>
+    <h2>Fill out this form to get in contact with Karina!</h2>
+    <form action="https://formspree.io/f/mlezbnkk" method="post">
+        
+        <label for="fullname">Name of Contact</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+        <label for="complaint">Reason to Speak </label><br>
+        <textarea name="complaint" id="complaint"></textarea> <br>
+
+
+
+        <label for="important1">important </label>
+        <input type="radio" name="important" id="important1"><br>
+        <label for="important2">not important</label>
+        <input type="radio" name="important" id="important2"><br>
+
+        <p>What contact methods work?</p>
+        <label for="method1">Phone</label>
+        <input type="checkbox" id="method1" name="method1">
+        <label for="method2">Email</label>
+        <input type="checkbox" id="method2" name="method2"><br>
+
+        <label for="time">What time do you want to speak?</label>
+        <select id="time" name="time" >
+            <option value="morning">11am</option>
+            <option value="afternoon">5pm</option>
+            <option value="evening">8pm</option>
+
+        </select><br>
+
+
+        <input type="submit" Value="send request" >
+
+    </form>
+    </div>
+    <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3092.534729649581!2d-76.12571715347578!3d43.0341127704618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89d9f3682f81fc95%3A0xdde8fcc1640a4876!2sSyracuse%2C%20NY%2013210!3m2!1d43.0347064!2d-76.1261969!5e0!3m2!1sen!2sus!4v1644505732445!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+
+    <footer>
+        <hr>
+        &copy;2020
+        <p class="footerp" >
+            What you want most should be prioritized over what you want now - 
+            Someone Smarter than Me
+        </p>
+     </footer>
+
+    </body>
+</html>

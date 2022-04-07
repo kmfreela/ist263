@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device">
+        <style>
+            table, td, th {border: 1px solid black;}
+            .techheader {text-align: center;}
+            .skillinfo {padding: 40px;}
+            .firstbox, .mainflex {display: flex;}
+            .firstbox {flex: 2}
+           .firstbox, div {justify-content: space-between; padding: 15px;}
+            .mainflex {flex: .75}
+            .secondbox {background-color: cornflowerblue; color: white; border-radius: 25px; justify-content: right;}
+        </style>
+        <title>Skills Tables</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="special">Karina Skills</h1>
+        <div class="navflex">
+            <nav>
+                <div>
+                    <a href="index.html">Home</a>
+                <span>|</span>
+                </div>
+                <div>
+                    <a href="skills.html">Skills</a>
+                <span>|</span>
+                </div>
+                <!--this is when there is atext but you dont want it to be a block element-->
+                <div>
+                    <a href="contactb.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+
+        <h1 class="techheader">Karina's Technical Skills</h1>
+        <p class="skillinfo">This is a skills page for Karina Freeland. She is a Junior at Syrcause University studying policy, information management, and geography. She hopes to use her skills to better her community through professional and personal endevors. If you are interested in working with her, please visit the 'Contact' page to get in touch!</p>
+        <div class="mainflex">
+            <!--this is the first flexbox with 5 inside them-->
+            <div class="firstbox">
+                <div>
+                    <img src="../images/ArcGIS.png" alt="ArcGISlogo" width="30">
+                    <br>
+                    ArcGIS
+                </div>
+                <div>
+                    <img src="../images/IPS.png" alt="IPSlogo" width="30">
+                    <br>
+                    IPS
+                </div>
+                <div>
+                    <img src="../images/CSS.png" alt="CSSlogo" width="30">
+                    <br>
+                    CSS
+                </div>
+                <div>
+                    <img src="../images/person.png" alt="Personlogo" width="30">
+                    <br>
+                    People
+                </div>
+                <div>
+                    <img src="../images/org.png" alt="Organizationlogo" width="30">
+                    <br>
+                    Organization
+                </div>
+            </div>
+            <!--this is the second textbox with the "other skills" tab-->
+            <div class="secondbox">
+                <h2>Other Skills</h2>
+                <ul> 
+                    <li>Microsoft Applications</li> 
+                    <li>Google Collaborative Applications</li>
+                    <li>Graphic Design</li>
+                    <li>Community Organizing</li>
+                    <li>Listening/Communicating</li>
+                </ul>
+            </div>
+        </div>
+    
+        <footer>
+            <hr>
+            &copy;2020
+            <p class="footerp" >
+                What you want most should be prioritized over what you want now - 
+                Someone Smarter than Me
+            </p>
+         </footer>
+    </body>
+    </html>
