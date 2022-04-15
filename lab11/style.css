@@ -13,9 +13,9 @@ p a {color: red;}
 h1 h2 {color: black
 /* these are the header colors*/ 
 
-nav {background-color: black; padding: 10px; margin-bottom: 30px;}
-nav a {color: #FFFFFF}
-nav a:hover {background-color: red;}
+nav {background-color: #FFFFFF; padding: 10px; margin-bottom: 30px;}
+nav a {color: #000000}
+nav a:hover {background-color: #3c1d65;}
 /*these are the site nav colors and other things*/ 
 
 .navflex {display: flex; flex:1; flex-wrap: wrap; padding: 10px; margin:10px;}
