@@ -1,0 +1,26 @@
+body {background-color: white;
+    font-family: 'Times New Roman', Times, serif; font-size: 1em;}
+h1 {font-size: 2em}
+h2{font-size: 1.5em;}
+/*this is the site nav background*/
+
+div {background-color: white; color: black; }
+/*these are the text and body background colors*/
+
+p a {color: red;}
+/*this is the link color*/
+
+h1 h2 {color: black
+/* these are the header colors*/ 
+
+nav {background-color: black; padding: 10px; margin-bottom: 30px;}
+nav a {color: #FFFFFF}
+nav a:hover {background-color: red;}
+/*these are the site nav colors and other things*/ 
+
+.navflex {display: flex; flex:1; flex-wrap: wrap; padding: 10px; margin:10px;}
+.navflex, a {max-width: 100%}
+.navflex, span {display: none;}
+.media {float: right; max-width: 100%; margin: 10px}
+
+@media only screen and (max-width: 600px) {}
