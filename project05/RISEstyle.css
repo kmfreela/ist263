@@ -9,7 +9,7 @@ h2 {color:orange}
 .navnav {flex:1;}
 .navlog {justify-content: right; flex:2;}
 nav {background-color: grey; padding: 10px; margin-bottom: 30px; border-radius: 5px; color: white}
-nav a {color: #000000}
+nav a {color: white}
 nav a:hover {background-color: orange;}
 
 footer {background-color: grey; color: white; border-radius: 5px;}
