@@ -5,55 +5,47 @@
     <meta name="viewport" content="width=device">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .introinfo {text-align: center; padding:15px;}
+        .infoheaders {text-align: center; padding:15px;}
+
+        .formrequest {background-color: white; border-radius: 25px; padding: 20px; margin: 1em;}
+        .info {display:flex; justify-content: space-between; background-color: white; border-radius: 25px; padding: 25px; margin: 1em;}
+        .info, div {justify-content: space-between;padding: 15px;}
+        
+        .resourcecol .partnercol {flex:1; }
+        
+        h2 h1 {text-align: center; padding: 15px}
+
+    </style>
     <title>Cities RISE, Get Started</title>
+    <link rel="stylesheet" href="RISEstyle.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <span>|</span>
-        <a href="about.html">About the Team</a>
-        <span>|</span>
-        <a href="infoform.html">Organization Resources/Contact</a>
+    <nav class="navstyle">
+        <div class="navnav">
+            <a href="index.html">Home</a>
+            <span>|</span>
+            <a href="about.html">About the Team</a>
+            <span>|</span>
+            <a href="infoform.html">Organization Resources/Contact</a>
+        </div>
+       <div class="navlogo">
+        <img src="../Project/Media/Cities RISE Logo.png" height="50px" width="50px">
+       </div>
     </nav>
-    <h1>Contact Our Team or Learn from Resources We Support</h1>
-    <h2>Request for Assistance</h2>
-    <form action="https://formspree.io/f/mlezbnkk" method="post">
-        
-        <label for="fullname">Name of Contact</label><br>
-        <input type="text" id="fullname" name="fullname"><br>
 
-        <p>Age Range</p>
-        <label for="young"> 18-29 </label>
-        <input type="radio" name="young" id="young"><br>
-        <label for="middle"> 30-45</label>
-        <input type="radio" name="middle" id="middle"><br>
-        <label for="older"> 30-45</label>
-        <input type="radio" name="older" id="older"><br>
-        <label for="elder"> 30-45</label>
-        <input type="radio" name="elder" id="elder"><br>
-
-        <p>What contact methods work?</p>
-        <label for="method1">Phone</label>
-        <input type="checkbox" id="method1" name="method1">
-        <label for="method2">Email</label>
-        <input type="checkbox" id="method2" name="method2"><br>
-        <label for="method3">Facebook Messenger</label>
-        <input type="checkbox" id="method3" name="method3"><br>
-
-        <label for="time">What time do you want to speak?</label>
-        <select id="time" name="time" >
-            <option value="earlymorning">9am</option>
-            <option value="morning">11am</option>
-            <option value="afternoon">5pm</option>
-            <option value="evening">8pm</option>
-        </select><br>
-        <label for="issues">Housing Issues </label><br>
-        <textarea name="issues" id="issues"></textarea> <br>
-        <input type="submit" Value="send request" >
-    </form>
-
+    <div class="introinfo">
+        <h1>Community Information</h1>
+        <p>Find the information you need to fix your housing issues on this page! <br>
+            <strong>OR</strong> <br>
+            Contact our Community Ambassadors!
+        </p>
+    </div>
+   
+    <h2 class="infoheaders">Local Resources We Trust</h2>
     <div class="info">
-        <div>
+        <div class="resourcecol">
             <h2>Housing Resources</h2>
             <a href="http://www.google.com">Google</a><br>
             <h4>Tenant Resources</h4>
@@ -75,7 +67,7 @@
 
             </ul>
         </div>
-        <div>
+        <div class="partnercol">
             <h2>Our Partners</h2>
             <h4>Syracuse Peacemaking Center</h4>
             This organization specializes in acting as an unbiased facilitator in various confrontations to find a solution to the issues. <br>
@@ -89,13 +81,62 @@
             The Catholic Charities work with our team to find affordable and livable housing for those in poverty experiencing an existential crisis
         </div>
     </div>
+    <h2 class="infoheaders">Contact Us for Assistance</h2>
+    <form action="https://formspree.io/f/mlezbnkk" method="post" class="formrequest">
+        
+        <label for="fullname">Name of Contact</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+
+        <p>Age Range</p>
+        <label for="young"> 18-29 </label>
+        <input type="radio" name="young" id="young"><br>
+        <label for="middle"> 30-45</label>
+        <input type="radio" name="middle" id="middle"><br>
+        <label for="older"> 30-45</label>
+        <input type="radio" name="older" id="older"><br>
+        <label for="elder"> 30-45</label>
+        <input type="radio" name="elder" id="elder"><br>
+
+        <p>What contact methods work?</p>
+        <label for="method1">Phone</label> 
+        <input type="checkbox" id="method1" name="method1"> <br>
+        <label for="method2">Email</label>
+        <input type="checkbox" id="method2" name="method2"><br>
+        <label for="method3">Facebook Messenger</label>
+        <input type="checkbox" id="method3" name="method3"><br>
+        <br>
+        <label for="time">What time do you want to speak?</label>
+        <select id="time" name="time" >
+            <option value="earlymorning">9am</option>
+            <option value="morning">11am</option>
+            <option value="afternoon">5pm</option>
+            <option value="evening">8pm</option>
+        </select><br>
+        <label for="issues">Housing Issues </label><br>
+        <textarea name="issues" id="issues"></textarea> <br>
+        <input type="submit" Value="send request" >
+    </form>
+
+ 
     <footer>
-        <div>
-            <div>
-                &copy;2022 Syracuse Peacemaking Center Partnered with Neighborhood and Business Development Department at City of Syracuse 
+        <div class="footflex">
+            <div class="logocol">
+                <img src="../Project/Media/Cities RISE Logo.png" height="150px" width="150px">
             </div>
-            <div>
-                <img src="../Project/Media/Cities RISE Logo.png">
+            <div class="othercol">
+                Syracuse Peacemaking Center<br>
+                601 Tully Street <br>
+                Syracuse, NY 13204<br>
+                <a href="https://www.courtinnovation.org/programs/peacemaking-program" alt="Peacemaking Project">Peacemaking Project Website</a>
+            </div>
+            <div class="othercol">
+                Partnered with  <br>
+                Neighborhood and Business Development <br>
+                Department at City of Syracuse <br>
+                <a href="http://www.syrgov.net/home.aspx" alt="City of Syracuse">City of Syracuse Website</a>
+            </div>
+            <div class="othercol">
+                &copy;2022 
             </div>
         </div>
     </footer> 

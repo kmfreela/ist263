@@ -1,0 +1,17 @@
+body {background-color: aliceblue; font-family: 'Times New Roman', Times, serif; color: black;}
+body a {color: black;}
+body a:hover {background-color: orange;}
+h1 {color: orange}
+
+.navstyle {display:flex}
+.navnav {flex:1;}
+.navlog {justify-content: right; flex:2;}
+nav {background-color: #FFFFFF; padding: 10px; margin-bottom: 30px; border-radius: 5px;}
+nav a {color: #000000}
+nav a:hover {background-color: orange;}
+
+footer {background-color: grey; color: white;}
+.footflex {display:flex;justify-content: space-between; margin: 2em; margin-top: 2em;}
+.footflex, div {justify-content: space-between; padding:15px}
+.logocol {flex: 2; padding: 15px;}
+.othercol {flex:1; padding: 20px; }
