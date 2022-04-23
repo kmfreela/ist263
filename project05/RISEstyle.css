@@ -17,3 +17,4 @@ footer {background-color: black; color: white; border-radius: 5px;}
 .footflex, div {justify-content: space-between; padding:15px}
 .logocol {flex: 2; padding: 15px;}
 .othercol {flex:1; padding: 20px; }
+.footflex a {color: white;}
