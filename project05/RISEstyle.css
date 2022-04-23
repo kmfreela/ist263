@@ -1,8 +1,7 @@
 body {background-color: white; font-family: Arial, Helvetica, sans-serif; color: black;}
 body a {color: black;}
 body a:hover {background-color: orange;}
-h1 {color: black}
-h2 {color: black}
+
 
 
 .navstyle {display:flex}
