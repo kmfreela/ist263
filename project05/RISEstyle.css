@@ -8,11 +8,11 @@ h2 {color:orange}
 .navstyle {display:flex}
 .navnav {flex:1;}
 .navlog {justify-content: right; flex:2;}
-nav {background-color: grey; padding: 10px; margin-bottom: 30px; border-radius: 5px; color: white}
+nav {background-color: black; padding: 10px; margin-bottom: 30px; border-radius: 5px; color: white}
 nav a {color: white}
 nav a:hover {background-color: orange;}
 
-footer {background-color: grey; color: white; border-radius: 5px;}
+footer {background-color: black; color: white; border-radius: 5px;}
 .footflex {display:flex;justify-content: space-between; margin: 2em; margin-top: 2em;}
 .footflex, div {justify-content: space-between; padding:15px}
 .logocol {flex: 2; padding: 15px;}
