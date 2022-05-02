@@ -2,7 +2,8 @@ body {background-color: white; font-family: Arial, Helvetica, sans-serif; color:
 body a {color: black;}
 body a:hover {background-color: orange;}
 
-
+.introinfo {text-align: center; padding:15px;}
+.infoheaders {text-align: center; padding:15px;}
 
 .navstyle {display:flex}
 .navnav {flex:1;}
