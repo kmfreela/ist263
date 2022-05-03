@@ -17,6 +17,10 @@
 
     </style>
     <title>Cities RISE, Get Started</title>
+    <script> 
+        function SubmissionMessage(){
+            document.getElementById("messages").innerHTML='We will contact you soon!';}
+        </script>
     <link rel="stylesheet" href="RISEstyle.css">
 </head>
 <body>
@@ -121,7 +125,7 @@
         </select><br>
         <label for="issues">Housing Issues </label><br>
         <textarea name="issues" id="issues"></textarea> <br>
-        <input type="submit" Value="send request" >
+        <input type="submit" Value="send request" onclick="SubmissionMessage();" >
     </form>
 
  
