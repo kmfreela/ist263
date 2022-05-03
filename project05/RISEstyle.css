@@ -20,4 +20,4 @@ footer {background-color: black; color: white; border-radius: 5px;}
 .footflex a {color: white;}
 
 @media only screen and (max-width: 600px) 
-{.imgmedia {display: none;} 
+{.imgmedia {display: none;}}
